@@ -1,0 +1,9 @@
+=-=-= JUSTIFICATIVA DO PADRÃO ESCOLHIDO =-=-=
+
+- Chain of Responsibility:
+    O Chain of Responsibility é ideal para a construção de uma cadeia de processamento de
+regras onde a ordem de execução é sequencial, mas a decisão de prosseguir pode ser tomada
+por cada componente. Ele permite que o documento fiscal passe por múltiplos validadores,
+facilitando a implementação de regras condicionais, o mecanismo de "circuit breaker"
+(interrompendo a cadeia após falhas) e a capacidade de estender a funcionalidade com um
+mecanismo de rollback em caso de falha.

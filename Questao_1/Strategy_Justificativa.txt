@@ -1,0 +1,8 @@
+=-=-= JUSTIFICATIVA DO PADRÃO ESCOLHIDO =-=-=
+
+- Strategy:
+    O padrão Strategy permite que o sistema troque algoritmos (VaR, ES, Stress Testing)
+em tempo de execução sem que o cliente (o Contexto) precise conhecer suas implementações.
+Isso garante a intercambialidade exigida e adere ao princípio Open/Closed Principle (OCP)
+do SOLID, facilitando a adição de novos algoritmos de risco no futuro sem modificar o
+código existente.

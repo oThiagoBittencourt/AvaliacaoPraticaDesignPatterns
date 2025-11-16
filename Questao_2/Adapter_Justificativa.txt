@@ -1,0 +1,9 @@
+=-=-= JUSTIFICATIVA DO PADRÃO ESCOLHIDO =-=-=
+
+- Adapter:
+    O Adapter é essencial para resolver o problema de interfaces
+incompatíveis. Ele atua como um invólucro (Wrapper) que converte
+a interface moderna (ProcessadorTransacoes) para a assinatura e
+tipos de dados obsoletos do sistema legado (SistemaBancarioLegado).
+É a solução direta para reuso de código legado e tratamento de
+conversões de dados, como a codificação específica de moedas.

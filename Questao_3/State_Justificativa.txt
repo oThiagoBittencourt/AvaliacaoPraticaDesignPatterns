@@ -1,0 +1,8 @@
+=-=-= JUSTIFICATIVA DO PADRÃO ESCOLHIDO =-=-=
+
+- State:
+    O State é o padrão mais adequado para gerenciar estados complexos com transições bem 
+definidas e condicionais. Ele encapsula o comportamento de cada estado (DESLIGADA,
+OPERACAO_NORMAL, etc.) em uma classe separada, garantindo que as regras de transição (ex:
+checagens de temperatura e pressão) sejam validadas apenas no contexto do estado atual,
+prevenindo transições inválidas e simplificando o código do objeto principal (Usina).
